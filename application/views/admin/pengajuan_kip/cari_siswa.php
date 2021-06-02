@@ -23,6 +23,7 @@
 			<form action="<?php echo site_url('admin/pengajuan_kip/dicari/')?>" method="GET" class="was-validated" align="left">
 			<div class="form-group">
 								<label for="Nama_Lengkap">Nama Lengkap*</label>
+								<!-- <input class="form-control" type="text" name="nis"placeholder="Masukkan Nomor Induk Siswa" required> -->
 								<select name="id" id="PilihSiswa" class=" form-control <?php echo form_error('Nama_Lengkap') ? 'is-invalid':'' ?>" >
 										<option selected disabled>-- Pilih Nama Peserta Didik --</option>
 									<?php foreach ($siswa as $siswa): ?>

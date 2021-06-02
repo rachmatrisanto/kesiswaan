@@ -17,6 +17,8 @@ class Pengajuan_kip extends CI_Controller
         $this->load->view("admin/pengajuan_kip/list",$data);
     }
 
+   
+
     public function cari_siswa(){
         $siswa["siswa"] = $this->pengajuan_kip_model->getAllSiswa();
         $this->load->vars($siswa);
@@ -57,6 +59,7 @@ class Pengajuan_kip extends CI_Controller
             return $_POST['sktm'] = $this->upload->data('file_name');
         }
     }
+   
 
     public function dicari ()
     {   
