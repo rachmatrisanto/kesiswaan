@@ -8,7 +8,7 @@
 	<div style="padding-top: 1%; padding-bottom: 3%;" align="center">
 		<img src="<?php echo base_url()?>assets/image/logo.png" alt="logo" class="rounded-circle"/>
 		<h1>SMK Negeri <a href="<?php echo site_url('Login')?>" style="text-decoration: none; color: black;"> 5 </a>Surabaya</h1>
-		<h1>Layanan Mandiri Kesiswaan</h1>
+		<h1>Portal Mandiri Kesiswaan</h1>
 	</div>
 	<div class="row">
 			<div class="col-xl-3 col-sm-3 mb-3">
